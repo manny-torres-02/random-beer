@@ -1,10 +1,42 @@
 .App {
   text-align: center;
+  width: 90%;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.beer-container{
+  /* width: 80vw; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.beer-facts {
+  /* width:90vh; */
+  /* margin: auto;  */
+  text-align: center;
+  padding: 50px;
+
+}
+
+img {
+/*  */
+  max-height: 100vh;
+}
+
+p {
+
+}
+
+/* mobile First Design */
+@media only screen and (max-width: 400px) {
+  body {
+  
+  }
+
+  .beer-container {
+    flex-direction: column;
   }
 }
-
